@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Stopwatch" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- Primary color for the theme -->
+        <item name="colorPrimary">#E05D33</item>
+        <item name="colorPrimaryVariant">#F44336</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.Stopwatch" parent="Base.Theme.Stopwatch" />
+
+    <!-- Custom Button Style -->
+    <style name="CustomButtonStyle" parent="Widget.Material3.Button">
+        <!-- Background color for buttons -->
+        <item name="backgroundTint">@color/blue_deep</item>
+        <!-- Text color for buttons -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Rounded corners for buttons -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
